@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>PET Deployer</title>
+</head>
+<body>
+
+  <div style="margin-left:100px;">
+    <h4>PET Deployer</h4>
+    <form action="/deploy/front-end" method="post" enctype="multipart/form-data">
+        <div>FrontEnd Zip File</div>
+        <input type="file" name="zipfile"><br>
+        <input type="submit" value="Deploy">
+      </form>
+
+    <form action="/deploy/back-end" method="post" enctype="multipart/form-data">
+        <div>BackEnd Zip File</div>
+        <input type="file" name="zipfile"><br>
+        <input type="submit" value="Deploy">
+      </form>
+  </div>
+</body>
+</html>

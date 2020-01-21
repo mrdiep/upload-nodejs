@@ -1,0 +1,5 @@
+node_modules
+uploads
+uploads_extracted
+test-folder
+package-lock.json
